@@ -13,10 +13,11 @@
     self = [super init];
     if (self) {
         _userId = [dictionary[@"userId"] integerValue];
-        _id = [dictionary[@"id"] integerValue];
-        _title = [dictionary[@"title"] stringValue];
-        _body = [dictionary[@"userId"] stringValue];
+        _objectId = [dictionary[@"id"] integerValue];
+        _title = dictionary[@"title"];
+        _body = dictionary[@"userId"];
     }
     return self;
 }
 @end
+

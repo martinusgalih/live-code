@@ -11,7 +11,7 @@
 
 
 @property (nonatomic, assign) NSInteger userId;
-@property (nonatomic, assign) NSInteger id;
+@property (nonatomic, assign) NSInteger objectId;
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *body;
 
